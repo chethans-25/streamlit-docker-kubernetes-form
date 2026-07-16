@@ -17,7 +17,7 @@ streamlit run app.py
 docker login -u chethans25
 
 <!-- docker build command -->
-docker build -t streamlit-form-app:latest
+docker build -t streamlit-form-app:latest .
 
 <!-- docker run command -->
 docker run -p 8501:8501 streamlit-form-app:latest
